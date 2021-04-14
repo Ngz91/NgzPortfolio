@@ -666,6 +666,10 @@ section .title::after{
     margin-left: 30px;
 }
 
+.contact .contact-content .left .row #icon{
+    font-size: 25px;
+}
+
 .contact .contact-content .row i{
     font-size: 25px;
     color: #04E405;
