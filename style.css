@@ -474,7 +474,7 @@ section .title::after{
 }
 
 .skills .skills-content .right .python::before{
-	width: 60%;	
+	width: 70%;	
 }
 
 .python-animation::before{
@@ -482,7 +482,7 @@ section .title::after{
 }
 
 .skills .skills-content .right .javascript::before{
-	width: 30%;	
+	width: 40%;	
 }
 
 .javascript-animation::before{
@@ -490,7 +490,7 @@ section .title::after{
 }
 
 .skills .skills-content .right .django::before{
-	width: 50%;	
+	width: 65%;	
 }
 
 .django-animation::before{
@@ -525,7 +525,7 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 60%;
+		width: 70%;
 	}
 }
 
@@ -533,7 +533,7 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 30%;
+		width: 40%;
 	}
 }
 
@@ -541,7 +541,7 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 50%;
+		width: 65%;
 	}
 }
 
