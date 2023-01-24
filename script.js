@@ -37,15 +37,23 @@ $(document).ready(() => {
 			$('.css').addClass("css-animation")
 			$('.python').addClass("python-animation")
 			$('.javascript').addClass("javascript-animation")
+			$('.typescript').addClass("javascript-animation")
+			$('.nextjs').addClass("next-animation")
+			$('.nestjs').addClass("nestjs-animation")
 			$('.django').addClass("django-animation")
 			$('.jupyter').addClass("jupyter-animation")
+			$('.ruby').addClass("ruby-animation")
 		}else{
 			$('.html').removeClass("html-animation")
 			$('.css').removeClass("css-animation")
 			$('.python').removeClass("python-animation")
 			$('.javascript').removeClass("javascript-animation")
+			$('.typescript').removeClass("javascript-animation")
+      $('.nextjs').removeClass("next-animation")
+			$('.nestjs').removeClass("nestjs-animation")
 			$('.django').removeClass("django-animation")
 			$('.jupyter').removeClass("jupyter-animation")
+			$('.ruby').removeClass("ruby-animation")
 		}
 	});
 

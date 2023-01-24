@@ -438,7 +438,9 @@ section .title::after{
 
 .skills .skills-content .right span{
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 22px;
+  padding-left:10px;
+  text-shadow: 0.5px 0.5px 0.2px black;
 }
 
 .skills .skills-content .right .line{
@@ -474,7 +476,7 @@ section .title::after{
 }
 
 .skills .skills-content .right .python::before{
-	width: 70%;	
+	width: 85%;	
 }
 
 .python-animation::before{
@@ -482,11 +484,35 @@ section .title::after{
 }
 
 .skills .skills-content .right .javascript::before{
-	width: 40%;	
+	width: 65%;	
 }
 
 .javascript-animation::before{
 	animation: Fill_Line_js 2s linear;
+}
+
+.skills .skills-content .right .typescript::before{
+	width: 65%;
+}
+
+.typescript-animation::before{
+	animation: Fill_Line_ts 2s linear;
+}
+
+.skills .skills-content .right .nextjs::before{
+	width: 70%;
+}
+
+.next-animation::before{
+	animation: Fill_Line_next 2s linear;
+}
+
+.skills .skills-content .right .nestjs::before{
+	width: 55%;
+}
+
+.nestjs-animation::before{
+	animation: Fill_Line_nest 2s linear;
 }
 
 .skills .skills-content .right .django::before{
@@ -498,11 +524,19 @@ section .title::after{
 }
 
 .skills .skills-content .right .jupyter::before{
-	width: 55%;
+	width: 60%;
 }
 
 .jupyter-animation::before{
 	animation: Fill_Line_jupyter 2s linear;
+}
+
+.skills .skills-content .right .ruby::before{
+	width: 60%;
+}
+
+.ruby-animation::before{
+	animation: Fill_Line_ruby 2s linear;
 }
 
 @keyframes Fill_Line_html{
@@ -525,7 +559,7 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 70%;
+		width: 85%;
 	}
 }
 
@@ -533,7 +567,31 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 40%;
+		width: 65%;
+	}
+}
+
+@keyframes Fill_Line_ts{
+	from{
+		width: 0%;
+	}to{
+		width: 60%;
+	}
+}
+
+@keyframes Fill_Line_next{
+	from{
+		width: 0%;
+	}to{
+		width: 70%;
+	}
+}
+
+@keyframes Fill_Line_nest{
+	from{
+		width: 0%;
+	}to{
+		width: 55%;
 	}
 }
 
@@ -549,7 +607,15 @@ section .title::after{
 	from{
 		width: 0%;
 	}to{
-		width: 55%;
+		width: 60%;
+	}
+}
+
+@keyframes Fill_Line_ruby{
+	from{
+		width: 0%;
+	}to{
+		width: 60%;
 	}
 }
 
